@@ -1,0 +1,327 @@
+body {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+.head {
+    background-image: url("../img/header.png");
+}
+
+h1, h2, h3, h4, h5, p {
+    color: white;
+}
+
+.logo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-item {
+    padding-top: 34px;
+}
+
+.a {
+    padding: 0;
+    margin: 0
+}
+
+.nav-link {
+    padding: 0px;
+    margin-left: 41px;  
+    text-align: right;  
+}
+
+.caro h1, .caro p {
+    color: black;
+    padding-top: 30px;
+}
+
+#last {
+    margin-bottom: 50px;
+}
+
+#portfolio {
+    background-color: white;
+}
+
+#firstText {
+    padding-bottom: 333px;
+}
+
+#menu {
+    padding-top: 10px; 
+}
+
+.firstSect {
+    background-image: url("../img/firstBG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.row-centered {
+    text-align: center;
+}
+
+.firstCL {
+    padding-top: 297px;
+    margin-bottom: 21px;
+}
+
+.firstSect p {
+    text-transform: uppercase;
+    font-size: 11pt;
+}
+
+.secondSect {
+    background-image: url("../img/secondBG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;     
+}
+
+.secondLogo {
+    padding-top: 251px;
+    padding-bottom: 25px;
+    font-family: AvenirNextCyr-DemiItalic;
+    font-size: 36pt !important;
+}
+
+.secondSect p {
+    font-size: 14pt;
+}
+
+#someText {
+    padding-bottom: 200px;
+    font-family: Fira;
+}
+
+.thirdSect {
+    height: 817px;
+}
+
+.fourthSect {
+    height: 817px;
+}
+
+.carou {
+    width: 100%;
+    height: 821px;
+}
+
+.fifthSect {
+    background-image: url("../img/fifthBG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;     
+}
+
+.down {
+    padding-top: 60px;
+    
+}
+
+.downly {
+    padding-top: 40px; 
+    padding-bottom: 60px; 
+}
+
+.sixSect {
+    background-image: url("../img/lastBG.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;     
+}
+
+.navbar-nav a {
+    color: #b9b9b9;
+    text-decoration: none;
+    font-size: 12;
+    font-weight: bold;
+}
+
+.container.gallery-container {
+    min-height: 0 !important;
+}
+
+.sixSect a {
+    color: white;
+    text-decoration: none;
+    font-size: 12;
+    font-weight: bold;
+}
+
+.sixSect a:hover, a:focus {
+    color: white;
+    text-decoration: none;
+    font-size: 12;
+    font-weight: bold;
+}
+
+.sixSect li {
+    list-style-type: none;
+}
+
+.fut {
+    padding-top: 221px;
+    font-size: 14pt;
+    padding-bottom: 190px;
+}
+
+.er {
+    margin-bottom: 50px;
+}
+
+.secFut {
+    padding-top: 150px;
+    padding-left: 0;
+}
+
+.last {
+    font-size: 17pt;
+    padding-bottom: 20px;
+}
+  
+input:active {
+    background: #8a6e4a;
+    color: #fff;
+}
+
+.in {
+    border: none;
+    background-color: #8a6e4a;
+    opacity: 0.82;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 40px;
+    color: #fff;
+    padding-left: 5px;
+    font-size: 12pt;
+}
+
+.but {
+    background-color: #f1a745;
+    border-radius: 5px; 
+    height: 50px;
+    width: 150px;
+    font-size: 17pt;
+}
+
+.butt {
+    padding-bottom: 100px;
+}
+
+.navbar-nav a:hover, .any a:focus {
+    color: #b9b9b9;
+    text-decoration: none;
+    border-bottom: 3px solid orange;
+}
+
+footer {
+    background-color: gray;
+}
+
+.end {
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    list-style-type: none;
+}
+
+#end {
+    text-decoration: none;
+    color: orange;
+}
+
+@font-face {
+    font-family: AvenirNextCyr-Regular; 
+    src: url(../fonts/AvenirNextCyr-Regular.otf);
+    font-family: AvenirNextCyr-Demi; 
+    src: url(../fonts/AvenirNextCyr-Demi.ttf);
+    font-family: AvenirNextCyr-DemiItalic;
+    src: url(../fonts/AvenirNextCyr-DemiItalic.ttf);
+}
+
+
+@media screen and (max-width: 768px) {
+    .firstCL {
+        width: 100%;
+    }
+
+    .fut {
+        padding-top:  20px;
+        padding-left: 310px;
+        padding-bottom: 0;
+    }
+    .last {
+        padding-top:  10px;
+        
+        padding-bottom: 0px;
+    }
+    .secFut {
+        padding-top: 0;
+        padding-bottom: 20px;
+        padding-left: 200px;
+    }
+    .butt {
+        padding-left: 70px;
+    }
+    
+    .secondLogo {
+        padding-top: 150px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .fut {
+        padding-left: 160px;
+    }
+    .last {
+        padding: 0
+    }
+    .secFut {
+        padding-left: 50px;
+        
+    }
+
+    .secondLogo {
+        width: 100%;
+    }
+
+    .er {
+        padding-bottom: 30px;
+        margin-bottom: 0;
+    }
+
+    .butt {
+       padding-left: 70px;
+    }
+    #someText {
+        padding-bottom: 150px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .fut {
+        padding-left: 100px;
+    }
+    .last {
+        padding: 0
+    }
+
+    .secFut {
+        padding-left: 50px;
+        
+    }
+    .butt {
+       padding-left: 20px;
+    }
+
+    .in {
+        width: 200px;
+    }
+    #someText {
+        padding-bottom: 150px;
+    }
+}
